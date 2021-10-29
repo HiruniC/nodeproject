@@ -1,0 +1,32 @@
+Source: node-qw
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: HiruniC <hiruni@meetrix.io>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends:
+ debhelper-compat (= 11)
+ , nodejs (>= 6)
+ , pkg-js-tools (>= 0.9.35)
+Standards-Version: 4.6.0
+Homepage: https://github.com/iarna/node-qw#readme
+Vcs-Git: https://salsa.debian.org/js-team/node-qw.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-qw
+
+Package: node-qw
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs (>= 6)
+Description: FIX_ME write the Debian package description
+ Write the short and long descriptions for the Debian package as
+ explained in the Developer's Reference, §6.2.1 – §6.2.3.
+ .
+ You can start with the short upstream package description,
+ “Quoted word literals!”.
+ .
+ Be aware that most upstream package descriptions are not written to
+ conform with Debian package guidelines. You need to explain the role
+ of this package for a Debian audience.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,7 @@
+version=4
+# It is not recommended use npmregistry. Please investigate more.
+# Origin url: https://github.com/iarna/node-qw
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,pgpmode=none" \
+ https://registry.npmjs.org/qw \
+ https://registry.npmjs.org/qw/-/qw-(\d[\d\.]*)@ARCHIVE_EXT@
